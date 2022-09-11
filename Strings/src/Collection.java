@@ -8,6 +8,7 @@ public class Collection {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//sorting
 		
 		List<Integer> a = new ArrayList<Integer>();
 		//Set <Integer>s = new HashSet<Integer>();
