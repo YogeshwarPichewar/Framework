@@ -5,9 +5,9 @@ public class Reverse {
 		// TODO Auto-generated method stub
 		String str = "How Are You" ;
 		String strAry[] = str.split(" ");
-		for(int i=0;i<strAry.length;i++) {
+		for(String su:strAry) {
 		
-	char[]s1=strAry[i].toCharArray();
+	char[]s1=su.toCharArray();
 	for(int j=s1.length-1;j>=0;j--) {
 		System.out.print(s1[j]);
 		
@@ -17,13 +17,21 @@ public class Reverse {
 			
 			
 		}
-		
-		
-		
-		
-		
+		System.out.println("");
+		reverseWord();
 		
 
+	}
+
+	private static void reverseWord() {
+		String s1= "Geeks for rocks" ;
+	String[]sr=s1.split(" ");
+	for(int k=sr.length-1;k>=0;k--) {
+		System.out.print(sr[k]+" ");
+	}
+				
+		// TODO Auto-generated method stub
+		
 	}
 
 }
