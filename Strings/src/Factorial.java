@@ -1,17 +1,17 @@
 
-public class Pattern {
+public class Factorial {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int i=1;
-		int sum=1;
+		int fact=1;
 		while(i<=5) {
 			
-				sum = sum *  i ;
+				fact = fact *  i ;
 				i++;
 			
 		}
-System.out.print("sum of first 20 even numbers is"+" "+ sum);
+System.out.print("sum o"+" "+ fact);
 	}
 
 }
