@@ -11,7 +11,7 @@ public class Factorial {
 				i++;
 			
 		}
-System.out.print("sum o"+" "+ fact);
+System.out.println("sum "+" "+ fact);
 	}
 
 }
