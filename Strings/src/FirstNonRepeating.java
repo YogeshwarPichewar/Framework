@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class FirstNonRepeating {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		System.out.println(firstNonRepeat("GeeksForGeeks"));
 
 	}
