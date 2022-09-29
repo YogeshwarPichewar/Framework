@@ -3,11 +3,11 @@ public class Pattern {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i=0;
-		int sum=0;
-		while(i<=2) {
+		int i=1;
+		int sum=1;
+		while(i<=5) {
 			
-				sum = sum + (2* i );
+				sum = sum *  i ;
 				i++;
 			
 		}
